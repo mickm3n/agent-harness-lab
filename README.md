@@ -11,7 +11,7 @@
 | Branch | 內容 | 用途 |
 |---|---|---|
 | `main` | **裸版**。只有程式與測試，沒有 `CLAUDE.md`、沒有 `.claude/` | 你的起點 |
-| `harness` | **設定好的版本**＝ `main` ＋ 規範檔 ＋ 權限規則 ＋ hook | 對照組與參考答案 |
+| `harness` | **設定好的版本**＝ `main` ＋ 規範檔 ＋ 權限規則 ＋ hook ＋ skill（`/plan-first`）＋ 子代理（`reviewer`） | 對照組與參考答案 |
 
 看這兩版差在哪，一行就夠：
 
@@ -38,7 +38,7 @@ git clone <this repo> && cd agent-harness-lab
 
 ## 練習
 
-三階練習與驗收條件在 `harness` branch 的 [EXERCISES.md](../../blob/harness/EXERCISES.md)。
+三階練習與驗收條件見 [EXERCISES.md](EXERCISES.md)（本分支）。
 
 刻意不放在 `main`：練習的重點是觀察 agent 在**沒有設定**時怎麼做事，而 agent 會讀 repo 裡的每一份文件。把說明放在起點分支，等於先把答案告訴它。
 

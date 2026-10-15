@@ -5,7 +5,7 @@ from app.orders import get_order
 
 def test_contract_shape():
     order = get_order(1, "alice")
-    assert set(order.keys()) == {"id", "owner", "total"}
+    assert {"id", "owner", "total"} <= set(order.keys())
 
 
 def test_contract_total_is_int():

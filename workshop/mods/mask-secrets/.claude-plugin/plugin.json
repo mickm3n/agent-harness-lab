@@ -1,0 +1,6 @@
+{
+  "name": "mask-secrets",
+  "version": "0.1.0",
+  "description": "Masks secret-looking values in Bash and Read results before Claude reads them",
+  "author": { "name": "Workshop" }
+}

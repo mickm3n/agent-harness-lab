@@ -5,3 +5,6 @@ __pycache__/
 
 # 注意：本專案刻意「不」忽略 .env。
 # 它是教材的一部分，內容全為假資料（見該檔開頭）。請勿把它加進來。
+
+# mod 載入時自動產生的型別檔
+workshop/mods/*/.claude-plugin/types/
